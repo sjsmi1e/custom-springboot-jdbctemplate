@@ -1,4 +1,4 @@
-/smile-jdbc-core/target/
-/smile-jdbc-core/smile-jdbc-core.iml
-/smile-spring-boot-starter/target/
-/smile-spring-boot-starter/smile-spring-boot-starter.iml
+smile-jdbc-core/target/
+smile-jdbc-core/smile-jdbc-core.iml
+smile-spring-boot-starter/target/
+smile-spring-boot-starter/smile-spring-boot-starter.iml
