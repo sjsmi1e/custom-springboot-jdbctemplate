@@ -11,6 +11,12 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="annotation-test" target="8" />
+      <module name="smile-annotation" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="annotation-test" options="-parameters" />
+    </option>
   </component>
 </project>

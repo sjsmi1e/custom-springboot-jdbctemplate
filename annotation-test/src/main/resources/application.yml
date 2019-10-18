@@ -1,0 +1,18 @@
+spring:
+  redis:
+    database: 1
+    host: 192.168.2.100
+    port: 6379
+    timeout: 3000
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 10
+        min-idle: 0
+        max-wait: 3
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.2.100:3306/test?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 789396

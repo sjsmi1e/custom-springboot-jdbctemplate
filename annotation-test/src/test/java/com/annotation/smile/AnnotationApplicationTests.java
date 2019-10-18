@@ -1,5 +1,7 @@
-import com.annotation.smile.AnnotationApplication;
-import com.annotation.smile.UserService;
+package com.annotation.smile;
+
+import com.annotation.smile.service.UserService;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -17,6 +19,7 @@ public class AnnotationApplicationTests {
     @Autowired
     private UserService userService;
 
+    @Test
     public void Test1(){
         userService.getUserById(1);
     }
